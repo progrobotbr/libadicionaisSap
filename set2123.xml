@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tbbases>
+<setnr>001</setnr>
+<tbbase>
+ <tbname>j_1bnfdoc</tbname>
+ <fields>
+  <field>docnum</field>
+  <field>form</field>
+  <field>cgc</field>
+  <field>NFTYPE</field>
+  <field>DOCTYP</field>
+  <field>DIRECT</field>
+  <field>DOCDAT</field>
+  <field>PSTDAT</field>
+  <field>CREDAT</field>
+  <field>CRETIM</field>
+  <field>CRENAM</field>
+  <field>CHADAT</field>
+  <field>CHATIM</field>
+  <field>CHANAM</field>
+  <field>MODEL</field>
+  <field>SERIES</field>
+  <field>NFNUM</field>
+  <field>ENTRAD</field>
+  <field>FATURA</field>
+  <field>ZTERM</field>
+  <field>PRINTD</field>
+ </fields>
+ <tbjoin>
+  <tbname>j_1bnflin</tbname>
+  <fields>
+    <field>docnum</field>
+    <field>maktx</field>
+    <field>matnr</field>
+    <field>BWKEY</field>
+    <field>BWTAR</field>
+    <field>CHARG</field>
+    <field>DOCREF</field>
+    <field>ITMREF</field>
+    <field>CFOP</field>
+    <field>OWNPRO</field>
+    <field>MATUSE</field>
+    <field>REFTYP</field>
+    <field>REFKEY</field>
+    <field>REFITM</field>
+    <field>MENGE</field>
+    <field>MEINS</field>
+    <field>NETPR</field>
+    <field>NETWR</field>
+  </fields>
+  <join>
+    <tbname>j_1bnfdoc</tbname>
+    <condj>
+      <field>docnum</field>
+      <field_value>docnum</field_value>
+    </condj>
+   </join>
+  </tbjoin>
+</tbbase>
+<tbbase>
+ <tbname>t001</tbname>
+ <fields>
+  <field>bukrs</field>
+  <field>butxt</field>
+  <field>ORT01</field>
+  <field>LAND1</field>
+  <field>WAERS</field>
+  <field>SPRAS</field>
+  <field>KTOPL</field>
+  <field>WAABW</field>
+  <field>PERIV</field>
+  <field>KOKFI</field>
+ </fields>
+</tbbase>
+<tbbase>
+ <tbname>J_1BNFSTX</tbname>
+ <fields>
+  <field>docnum</field>
+  <field>taxtyp</field>
+ </fields>
+</tbbase>
+</tbbases>

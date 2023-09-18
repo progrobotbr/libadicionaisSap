@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tbbasessql>
+<setnr>2124</setnr>
+<tbbase>
+ <tbname>j_1bnfdoc_2121</tbname>
+ <sql>select docnum, form from j_1bnfdoc_2121</sql>
+</tbbase>
+<tbbase>
+ <tbname>j_1bnflin_2121</tbname>
+ <sql>select docnum, matnr, maktx from j_1bnflin_2121</sql>
+</tbbase>
+</tbbasessql>
